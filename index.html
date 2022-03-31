@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MY-BANK</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- NAVBAR -->
+      <nav class="nav-bar">
+        <span class="message">Log in to get started</span>
+        <img class="logo-img" src="image/logo.png" alt="logo" />
+        <div class="logn-box">
+          <input type="text" placeholder="user" class="input-box" />
+          <input type="number" placeholder="PIN" class="input-box" />
+          <button class="logn-btn">&rarr;</button>
+        </div>
+      </nav>
+
+      <!-- MAIN -->
+      <main class="app-container">
+        <header class="current-balance-box">
+          <div class="current-balance-left">
+            <span class="current-bal-text">Current balance</span>
+            <small class="current-bal-date">As of 30/03/2022, 00:51</small>
+          </div>
+          <div class="current-balance-right">
+            <span class="current-bal-amt">25 952,59$</span>
+          </div>
+        </header>
+        <section class="app-main">
+          <div class="transaction-box"></div>
+          <div class="mini-boxes">
+            <!--***** TRANSFER BOX******************** -->
+            <div class="transfer-box">
+              <span class="transfer-box-head">Transfer money</span>
+              <div class="transfer-box-content">
+                <div class="transfer-box-left-content">
+                  <input class="transfer-box-input" />
+                  <span class="transfer-box-text">Transfer to</span>
+                </div>
+                <div class="transfer-box-right-content">
+                  <input class="transfer-box-input" />
+                  <span class="transfer-box-text">Amount</span>
+                </div>
+                <button class="transfer-box-btn">&rarr;</button>
+              </div>
+            </div>
+            <!-- ********************************** -->
+            <div class="loan-box"></div>
+            <div class="close-box"></div>
+          </div>
+        </section>
+        <footer></footer>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

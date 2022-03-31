@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e2e8f0;
+}
+
+/* NAV-BAR */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 20px 30px 20px;
+}
+
+.message {
+  font-size: 20px;
+}
+
+.logo-img {
+  width: 40px;
+}
+
+.logn-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-box {
+  text-align: center;
+  width: 28%;
+  padding: 0.8rem 0.5rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  border: none;
+  font-family: inherit;
+  margin-left: 10px;
+}
+
+.logn-btn {
+  padding: 0.2rem 1rem;
+  background-color: #e2e8f0;
+  border: none;
+  cursor: pointer;
+}
+
+/* APP */
+.app-container {
+  margin: 20px 270px 0 270px;
+}
+
+/* HEADER */
+.current-balance-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.current-balance-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-bal-text {
+  font-size: 22px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.current-bal-date {
+  color: #737373;
+}
+
+/* .current-balance-right {
+} */
+
+.current-bal-amt {
+  font-size: 32px;
+}
+
+/* APP MAIN */
+
+.app-main {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-template-rows: 500px;
+  grid-gap: 20px;
+}
+
+.transaction-box {
+  background-color: black;
+  border-radius: 0.5rem;
+}
+
+.mini-boxes {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.transfer-box {
+  background-color: blue;
+  border-radius: 0.5rem;
+}
+
+.loan-box {
+  background-color: orange;
+  border-radius: 0.5rem;
+}
+
+.close-box {
+  background-color: blue;
+  border-radius: 0.5rem;
+}
+
+/* APP RIGHT PART: */
+.transfer-box {
+  padding: 1.5rem 2rem 1.5rem 1.5rem;
+}
+
+.transfer-box-head {
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.transfer-box-content {
+  display: flex;
+  margin-top: 0.8rem;
+  align-items: center;
+}
+
+.transfer-box-left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transfer-box-input {
+  width: 90%;
+  border: none;
+  border-radius: 0.2rem;
+  opacity: 0.8;
+  padding: 0.35rem 0;
+  font-family: inherit;
+}
+
+.transfer-box-text {
+  font-size: 13.5px;
+  margin: 3px;
+}
+
+.transfer-box-right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transfer-box-btn {
+  align-self: flex-start;
+  padding: 0.35rem 0.9rem;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
