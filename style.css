@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #e2e8f0;
@@ -18,15 +22,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px 20px 30px 20px;
+  margin: 1.5rem 2rem 3rem 2rem;
 }
 
 .message {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .logo-img {
-  width: 40px;
+  width: 4rem;
 }
 
 .logn-box {
@@ -42,7 +46,7 @@ body {
   background-color: #fff;
   border: none;
   font-family: inherit;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 .logn-btn {
@@ -54,7 +58,7 @@ body {
 
 /* APP */
 .app-container {
-  margin: 20px 270px 0 270px;
+  margin: 2rem 27rem 0 27rem;
 }
 
 /* HEADER */
@@ -62,7 +66,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .current-balance-left {
@@ -71,8 +75,8 @@ body {
 }
 
 .current-bal-text {
-  font-size: 22px;
-  margin-bottom: 2px;
+  font-size: 2.2rem;
+  margin-bottom: 0.2rem;
   font-weight: 600;
 }
 
@@ -84,7 +88,7 @@ body {
 } */
 
 .current-bal-amt {
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 /* APP MAIN */
@@ -92,8 +96,8 @@ body {
 .app-main {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
-  grid-template-rows: 500px;
-  grid-gap: 20px;
+  grid-template-rows: 50rem;
+  grid-gap: 2rem;
 }
 
 .transaction-box {
@@ -104,7 +108,7 @@ body {
 .mini-boxes {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 2rem;
 }
 
 .transfer-box {
@@ -129,7 +133,7 @@ body {
 
 .transfer-box-head {
   font-weight: 600;
-  margin-left: 3px;
+  margin-left: 0.3rem;
 }
 
 .transfer-box-content {
@@ -154,8 +158,8 @@ body {
 }
 
 .transfer-box-text {
-  font-size: 13.5px;
-  margin: 3px;
+  font-size: 1.35rem;
+  margin: 0.3rem;
 }
 
 .transfer-box-right-content {
