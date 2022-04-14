@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 *,
 *::before,
 *::after {
@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body {
@@ -58,7 +58,7 @@ body {
 
 /* APP */
 .app-container {
-  margin: 2rem 27rem 0 27rem;
+  margin: 2rem 20rem 0 20rem;
 }
 
 /* HEADER */
@@ -127,51 +127,59 @@ body {
 }
 
 /* APP RIGHT PART: */
+
+/* TRANSFER MONEY */
 .transfer-box {
-  padding: 1.5rem 2rem 1.5rem 1.5rem;
+  padding: 3rem 2rem 1.5rem 1.5rem;
 }
 
 .transfer-box-head {
-  font-weight: 600;
-  margin-left: 0.3rem;
+  font-weight: 700;
+  margin-left: 2.2rem;
+  font-size: 1.7rem;
 }
 
 .transfer-box-content {
   display: flex;
-  margin-top: 0.8rem;
-  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
 }
 
 .transfer-box-left-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 400;
 }
 
 .transfer-box-input {
-  width: 90%;
+  display: inline-block;
+  width: 12.75rem;
   border: none;
-  border-radius: 0.2rem;
-  opacity: 0.8;
-  padding: 0.35rem 0;
+  border-radius: 0.7rem;
+  opacity: 0.5;
+  padding: 0.6rem 0;
   font-family: inherit;
 }
 
 .transfer-box-text {
   font-size: 1.35rem;
-  margin: 0.3rem;
+  margin: 0.5rem;
+  font-weight: 500;
 }
 
 .transfer-box-right-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 400;
 }
 
 .transfer-box-btn {
   align-self: flex-start;
-  padding: 0.35rem 0.9rem;
-  border-radius: 0.2rem;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.7rem;
   border: none;
   cursor: pointer;
 }
